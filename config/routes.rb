@@ -7,6 +7,8 @@ Johnreaganmoore::Application.routes.draw do
 
   root 'home#index'
 
+  resources :posts
+
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
 
