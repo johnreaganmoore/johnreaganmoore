@@ -10,7 +10,13 @@ $gut-max-width: 1340px;
 
 * {
 	margin: 0;
-	background-color: white;
+	background-color: #FAFAFA;
+}
+
+body {
+	color: #636363;
+	font-family: 'Fenix', serif;
+	font-size: 32px;
 }
 
 header {
@@ -38,6 +44,23 @@ header {
 	}
 
 	font-family: 'Fenix', serif;
+
+}
+
+a {
+	color: #3C9951;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #49BA63;
+}
+
+h2 {
+	font-family: 'Cardo', sans-serif;
+	font-size: 70px;
+	font-weight: 600;
+	margin: 25px 25px 25px 0px;
 
 }
 
@@ -82,4 +105,9 @@ header {
 	background-repeat: no-repeat;
 	background-position: center;
 	height: 50rem;
+}
+
+.home-content {
+	text-align: center;
+	margin-top: 19%;
 }

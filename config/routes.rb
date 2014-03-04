@@ -5,7 +5,13 @@ Johnreaganmoore::Application.routes.draw do
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
-  root 'home#index'
+  #root 'home#index'
+
+  get 'blog' => 'posts#index'
+
+#Uncomment the above and comment out the below to see blog stuff
+
+  root 'home#home'
 
   resources :posts
 
