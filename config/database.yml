@@ -48,7 +48,7 @@ test:
   encoding: unicode
   database: johnreagan_test
   pool: 5
-  username: johnreagan
+  # username: johnreagan
   password:
 
 production:
@@ -56,5 +56,5 @@ production:
   encoding: unicode
   database: johnreagan_production
   pool: 5
-  username: johnreagan
+  # username: johnreagan
   password:
