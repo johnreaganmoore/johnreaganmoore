@@ -19,34 +19,6 @@ body {
 	font-size: 32px;
 }
 
-header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	z-index: 900;
-	background-color: transparent;
-	padding: 12px;
-}
-
-.logo {
-	img {
-		border-radius: 50%;
-		max-width: 100px;
-	}
-
-	li {
-		float: left; 
-	}
-
-	ul {
-		list-style: none;
-	}
-
-	font-family: 'Fenix', serif;
-
-}
-
 a {
 	color: #3C9951;
 	text-decoration: none;
