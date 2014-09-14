@@ -6,7 +6,11 @@
 
 $golden-factor: 12px;
 $gf: $golden-factor;
+<<<<<<< HEAD
 $gut-max-width: 1100px;
+=======
+$gut-max-width: 1340px;
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 
 * {
 	margin: 0;
@@ -19,6 +23,7 @@ body {
 	font-size: 32px;
 }
 
+<<<<<<< HEAD
 header {
 	position: absolute;
 	left: 0;
@@ -47,6 +52,8 @@ header {
 
 }
 
+=======
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 a {
 	color: #3C9951;
 	text-decoration: none;
@@ -71,6 +78,10 @@ h2 {
 	margin-left: 30px;
 
 	.title {
+<<<<<<< HEAD
+=======
+		color: black;
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 		font-family: 'Alegreya Sans SC', sans-serif;
 		font-size: 70px;
 		font-weight: 600;
@@ -87,6 +98,10 @@ h2 {
 
 
 .gut {
+<<<<<<< HEAD
+=======
+	background-color: white;
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
   max-width: $gut-max-width;
 
   padding-left: gf(1.5);
@@ -97,6 +112,17 @@ h2 {
 
 }
 
+<<<<<<< HEAD
+=======
+.hero {
+	background-image: url(/assets/Mountains.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 50rem;
+}
+
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 .home-content {
 	text-align: center;
 	margin-top: 19%;

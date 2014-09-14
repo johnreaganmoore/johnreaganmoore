@@ -1,16 +1,25 @@
+<<<<<<< HEAD
 Johnreaganmoore::Application.routes.draw do
+=======
+Johnreagan::Application.routes.draw do
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
 
+<<<<<<< HEAD
   #root 'home#index'
 
   get 'blog' => 'posts#index'
 
 #Uncomment the above and comment out the below to see blog stuff
 
+=======
+  get 'blog' => 'posts#index'
+
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
   root 'home#home'
 
   resources :posts

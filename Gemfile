@@ -3,8 +3,11 @@ source 'https://rubygems.org'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
 
+<<<<<<< HEAD
 gem 'haml'
 
+=======
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 # Use postgresql as the database for Active Record
 gem 'pg'
 
@@ -36,11 +39,14 @@ end
 
 gem 'rails_12factor', group: :production
 
+<<<<<<< HEAD
 group :development do
 	gem 'better_errors'
 	gem 'binding_of_caller'
 end
 
+=======
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 # Use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 

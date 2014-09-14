@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 Johnreaganmoore::Application.configure do
+=======
+Johnreagan::Application.configure do
+>>>>>>> 99cfe61933e56929eed43a27020d815992dba705
   # Settings specified here will take precedence over those in config/application.rb.
 
   # In the development environment your application's code is reloaded on
