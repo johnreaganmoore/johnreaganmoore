@@ -23,6 +23,8 @@ Things you may want to cover:
 
 * ...
 
+[ ![Codeship Status for johnreaganmoore/johnreaganmoore](https://www.codeship.io/projects/1ec68230-1e7e-0132-5001-26ae8067ef5f/status)](https://www.codeship.io/projects/35540)
+
 
 Please feel free to use a different markup language if you do not plan to run
 <tt>rake doc:app</tt>.

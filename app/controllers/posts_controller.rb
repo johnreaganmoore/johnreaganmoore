@@ -1,6 +1,21 @@
 class PostsController < ApplicationController
 
+
+	def index
+		@posts = Post.order("created_at DESC")
+	end
+
+	def show
+	  @post = Post.find(params[:id])
+	end
+
 	def new
+		@post = Post.new
+
+		respond_to do |format|
+			format.html #new.haml
+			format.xml { render :xml => @post }
+		end
 	end
 
 	def create
@@ -10,12 +25,23 @@ class PostsController < ApplicationController
 		redirect_to @post
 	end
 
-	def show
-	  @post = Post.find(params[:id])
+	def edit
+		@post = Post.find(params[:id])
 	end
 
-	def index
-		@posts = Post.order("created_at DESC")
+	def update
+		@post = Post.find(params[:id])
+
+		respond_to do |format|
+			if @post.update_attributes(post_params)
+				flash[:notice] = 'Boom! you edited that post!'
+				format.html { redirect_to(@post) }
+				format.xml  { head :ok }
+			else
+				format.html { render :action => "edit" }
+				format.xml  { render :xml => @post.errors, :status => :unprocessable_entity }
+			end
+		end
 	end
 
 	private
