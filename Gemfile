@@ -34,7 +34,10 @@ group :doc do
   gem 'sdoc', require: false
 end
 
-gem 'rails_12factor', group: :production
+group :production do
+	gem 'rails_12factor'
+	gem 'unicorn'
+end
 
 group :development do
 	gem 'better_errors'
