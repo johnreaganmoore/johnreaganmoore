@@ -3,8 +3,4 @@
 
 require File.expand_path('../config/application', __FILE__)
 
-<<<<<<< HEAD
 Johnreaganmoore::Application.load_tasks
-=======
-Johnreagan::Application.load_tasks
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 Johnreaganmoore::Application.configure do
-=======
-Johnreagan::Application.configure do
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705
   # Settings specified here will take precedence over those in config/application.rb.
 
   # Code is not reloaded between requests.
@@ -24,22 +20,15 @@ Johnreagan::Application.configure do
   # config.action_dispatch.rack_cache = true
 
   # Disable Rails's static asset server (Apache or nginx will already do this).
-<<<<<<< HEAD
+
   config.serve_static_assets = true
-=======
-  config.serve_static_assets = false
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 
   # Compress JavaScripts and CSS.
   config.assets.js_compressor = :uglifier
   # config.assets.css_compressor = :sass
 
   # Do not fallback to assets pipeline if a precompiled asset is missed.
-<<<<<<< HEAD
   config.assets.compile = true
-=======
-  config.assets.compile = false
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 
   # Generate digests for assets URLs.
   config.assets.digest = true
@@ -49,11 +38,7 @@ Johnreagan::Application.configure do
 
   # Specifies the header that your server uses for sending files.
   # config.action_dispatch.x_sendfile_header = "X-Sendfile" # for apache
-<<<<<<< HEAD
   config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
-=======
-  # config.action_dispatch.x_sendfile_header = 'X-Accel-Redirect' # for nginx
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
   # config.force_ssl = true
