@@ -1,7 +1,5 @@
 class PostsController < ApplicationController
 
-<<<<<<< HEAD
-
 	def index
 		@posts = Post.order("created_at DESC")
 	end
@@ -17,9 +15,6 @@ class PostsController < ApplicationController
 			format.html #new.haml
 			format.xml { render :xml => @post }
 		end
-=======
-	def new
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 	end
 
 	def create
@@ -29,7 +24,6 @@ class PostsController < ApplicationController
 		redirect_to @post
 	end
 
-<<<<<<< HEAD
 	def edit
 		@post = Post.find(params[:id])
 	end
@@ -47,14 +41,6 @@ class PostsController < ApplicationController
 				format.xml  { render :xml => @post.errors, :status => :unprocessable_entity }
 			end
 		end
-=======
-	def show
-	  @post = Post.find(params[:id])
-	end
-
-	def index
-		@posts = Post.order("created_at DESC")
->>>>>>> 99cfe61933e56929eed43a27020d815992dba705
 	end
 
 	private
