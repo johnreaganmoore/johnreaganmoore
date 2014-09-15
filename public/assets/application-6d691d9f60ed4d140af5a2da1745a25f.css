@@ -1,0 +1,88 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+
+
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Source+Sans+Pro|Fenix|Fauna+One|Carrois+Gothic|Carme|Ledger|Linden+Hill|Cardo);
+* {
+  margin: 0;
+  background-color: #FAFAFA; }
+
+body {
+  color: #636363;
+  font-family: 'Fenix', serif;
+  font-size: 32px; }
+
+header {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 900;
+  background-color: transparent;
+  padding: 12px; }
+
+.logo {
+  font-family: 'Fenix', serif; }
+  .logo img {
+    border-radius: 50%;
+    max-width: 100px; }
+  .logo li {
+    float: left; }
+  .logo ul {
+    list-style: none; }
+
+a {
+  color: #3C9951;
+  text-decoration: none; }
+
+a:hover {
+  color: #49BA63; }
+
+h2 {
+  font-family: 'Cardo', sans-serif;
+  font-size: 70px;
+  font-weight: 600;
+  margin: 25px 25px 25px 0px; }
+
+.post {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  margin-right: 30px;
+  margin-left: 30px; }
+  .post .title {
+    color: black;
+    font-family: 'Alegreya Sans SC', sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+    margin: 25px 25px 25px 0px; }
+  .post .article {
+    font-family: 'Fenix', serif;
+    font-size: 32px; }
+
+.gut {
+  max-width: 1200px;
+  padding-left: gf(1.5);
+  padding-right: gf(1.5);
+  margin-left: auto;
+  margin-right: auto; }
+
+.hero {
+  background-image: url(/assets/Mountains.JPG);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 50rem; }
+
+.home-content {
+  text-align: center;
+  margin-top: 19%; }
