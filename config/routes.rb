@@ -7,7 +7,7 @@ Johnreaganmoore::Application.routes.draw do
 
   #root 'home#index'
 
-  get 'blog' => 'posts#index'
+  # get 'blog' => 'posts#index'
 
 #Uncomment the above and comment out the below to see blog stuff
 
