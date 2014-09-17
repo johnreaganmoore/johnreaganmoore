@@ -12,7 +12,7 @@ class PostsController < ApplicationController
 		@post = Post.new
 
 		respond_to do |format|
-			format.html new.haml
+			format.html
 			format.xml { render :xml => @post }
 		end
 	end
