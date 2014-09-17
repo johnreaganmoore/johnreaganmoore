@@ -11,10 +11,10 @@ class PostsController < ApplicationController
 	def new
 		@post = Post.new
 
-		respond_to do |format|
-			format.html
-			format.xml { render :xml => @post }
-		end
+		# respond_to do |format|
+		# 	format.html
+		# 	format.xml { render :xml => @post }
+		# end
 	end
 
 	def create
