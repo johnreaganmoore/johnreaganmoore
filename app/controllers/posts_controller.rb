@@ -9,12 +9,6 @@ class PostsController < ApplicationController
 	end
 
 	def new
-		@post = Post.new
-
-		# respond_to do |format|
-		# 	format.html
-		# 	format.xml { render :xml => @post }
-		# end
 	end
 
 	def create
