@@ -4,15 +4,25 @@
 
 @import url(http://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Source+Sans+Pro|Fenix|Fauna+One|Carrois+Gothic|Carme|Ledger|Linden+Hill|Cardo);
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
 $golden-factor: 12px;
 $gf: $golden-factor;
 
 $gut-max-width: 1200px;
 
+$mobile-view: 500px;
+
+
 
 * {
 	margin: 0;
 	background-color: #FAFAFA;
+	box-sizing: border-box;
 }
 
 body {
@@ -21,17 +31,63 @@ body {
 	font-size: 32px;
 }
 
-header {
-	position: absolute;
-	left: 0;
-	right: 0;
-	top: 0;
-	z-index: 900;
-	background-color: transparent;
-	padding: 12px;
+.gut {
+
 }
 
-.logo {
+header {
+	padding: 40px;
+	background: green;
+	position: fixed;
+	width: 100%;
+	margin-bottom: 20px;
+	z-index: 100;
+
+}
+
+.header--content {
+	@extend .gut;
+	@media screen and (max-width: $mobile-view){
+		text-align: center;
+	}
+}
+
+.social--icons {
+	float: right;
+	img {
+		max-width: 25px;
+	}
+	@media screen and (max-width: $mobile-view){
+		float: none;
+		img {
+			max-width: 25px;
+		}
+	}
+}
+
+.name--logo {
+	float: left;
+	@media screen and (max-width: $mobile-view){
+		float: none;
+	}
+}
+
+.org--logo {
+	img {
+		border-radius: 50%;
+		max-width: 100px;
+	}
+}
+
+.main--content {
+	position: relative;
+	top: 130px;
+}
+
+
+
+
+/*.logo {
 	img {
 		border-radius: 50%;
 		max-width: 100px;
@@ -112,4 +168,6 @@ h2 {
 .home-content {
 	text-align: center;
 	margin-top: 19%;
-}
+}*/
+
+
