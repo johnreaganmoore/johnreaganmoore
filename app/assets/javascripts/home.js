@@ -105,13 +105,13 @@ suitUp.itemHide.on('click', function() {
 
 gordonCollege.itemClass.on('click', function() {
 	activateItem(gordonCollege, allItems);
-	$(".items--line").toggleClass("last--active");
 });
 
 gordonCollege.itemHide.on('click', function() {
    	hideDetails(gordonCollege.itemHide);
-	$(".items--line").toggleClass("last--active");
 });
+
+var activeItem = nil;
 
 function closeOtherDetails(item, allItems) {
 	for (var i = allItems.length - 1; i >= 0; i--) {
@@ -120,6 +120,9 @@ function closeOtherDetails(item, allItems) {
 			deactivateItem(allItems[i]);
 		};
 	};
+
+	activeItem = item;
+
 };
 
 function showHideDetails(item) {
@@ -181,7 +184,7 @@ function colorHeader(color) {
 
 function addHeaderShadow() {
 	$("#header").css("box-shadow", "0px 0px 5px rgba(150, 150, 150, 0.3)");
-}
+};
 
 $(window).on("scroll", function () {
     if ($(this).scrollTop() >= 50) {
