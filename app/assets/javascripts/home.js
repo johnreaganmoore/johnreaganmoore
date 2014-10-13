@@ -111,7 +111,6 @@ gordonCollege.itemHide.on('click', function() {
    	hideDetails(gordonCollege.itemHide);
 });
 
-var activeItem = nil;
 
 function closeOtherDetails(item, allItems) {
 	for (var i = allItems.length - 1; i >= 0; i--) {
@@ -120,9 +119,6 @@ function closeOtherDetails(item, allItems) {
 			deactivateItem(allItems[i]);
 		};
 	};
-
-	activeItem = item;
-
 };
 
 function showHideDetails(item) {
