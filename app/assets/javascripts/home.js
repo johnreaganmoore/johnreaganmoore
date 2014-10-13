@@ -160,6 +160,7 @@ function defaultHeader() {
     	$("#header").css("padding-top","50px");
     	$("#header").css("padding-bottom","50px");
     	$("#name--logo").css("color","#374249");
+    	$("#em").attr("src", "/assets/email.png");
     	$("#fb").attr("src", "/assets/facebook.png");
     	$("#gh").attr("src", "/assets/github.png");
     	$("#li").attr("src", "/assets/linkedin.png");
@@ -172,6 +173,7 @@ function colorHeader(color) {
 	$("#header").css("background-color", color);
 	$("#header").css("padding-top","15px");
 	$("#header").css("padding-bottom","15px");
+	$("#em").attr("src", "/assets/emailwhite.png");
 	$("#fb").attr("src", "/assets/facebookwhite.png");
 	$("#gh").attr("src", "/assets/githubwhite.png");
 	$("#li").attr("src", "/assets/linkedinwhite.png");
